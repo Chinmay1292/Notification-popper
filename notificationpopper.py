@@ -5,7 +5,7 @@ def notifyMe(title, message):
     notification.notify(
         title = title,
         message = message,
-        app_icon = r"C:\Users\HP\Downloads\hack.ico",
+        app_icon = "hack.ico",
         timeout = 15
 
     )
